@@ -1,0 +1,24 @@
+﻿Tarjeta (RF);MoSCoW (Etiqueta);Fuente del requisito;Lista en Trello
+RF-01 Acceso multiplataforma (móvil y escritorio);Must have;RC-01 - Entrevista bloque D3 (Amagua y Dr. Antonio);Backlog
+RF-02 Centralización de información clínica;Must have;RC-02 - Entrevistas A1/A2 (Amagua y Dr. Antonio);Backlog
+RF-03 Búsqueda de pacientes por nombre del animal y del dueño;Must have;RC-03 - Entrevista A2, Amagua;Backlog
+RF-04 Registro detallado del historial clínico;Must have;RC-04 - Entrevistas A1 (Amagua) y A2 (Dr. Antonio);Backlog
+RF-05 Alertas automáticas de vencimiento de inventario;Must have;RC-05 - Entrevista A4, Dr. Antonio y Amagua;Backlog
+RF-06 Gestión de stock con alertas de faltantes;Must have;RC-06 - Entrevista A4 (ambas);Backlog
+RF-07 Registro del proceso de cobro;Must have;RC-07 - Entrevista A3, Dr. Antonio y Amagua;Backlog
+RF-08 Módulo de facturación ágil (máximo 3 pasos);Must have;RC-08 - Entrevista A3, Amagua;Backlog
+RF-09 Registro de comunicaciones post-consulta;Should have;RC-09 - Entrevista A6 (ambas);Backlog
+RF-10 Envío de resultados de exámenes por WhatsApp;Should have;RC-10 - Entrevista A6, Amagua;Backlog
+RF-11 Registro de citas y seguimiento de inasistencias;Must have;RC-11 - Entrevista A5, Amagua;Backlog
+RF-12 Recordatorios automáticos de citas;Should have;RC-12 - Entrevista A5 (Amagua) y A6 (Dr. Antonio);Backlog
+RF-13 Seguimiento cronológico de peso y condición corporal;Must have;RC-13 - Entrevista B1, Dr. Antonio y Amagua;Backlog
+RF-14 Recomendaciones nutricionales personalizadas;Should have;RC-14 - Entrevista B2, Dr. Antonio y Amagua;Backlog
+RF-15 Recordatorios de seguimiento de indicaciones médicas;Should have;RC-15 - Entrevista B3, Amagua;Backlog
+RF-16 Exportación de reportes de salud del paciente en PDF;Should have;RC-16 - Entrevista B4, Dr. Antonio;Backlog
+RF-17 Sugerencias diagnósticas asistidas por IA (validación obligatoria);Must have;RC-17 - Entrevista C2/C4, Amagua y Dr. Antonio;Backlog
+RF-18 Respaldo bibliográfico de las sugerencias de IA;Must have;RC-18 - Bloque C5 (ambas entrevistas);Backlog
+RF-19 Revisión y corrección de sugerencias de IA por el veterinario;Must have;RC-19 - Bloque C5, Amagua y Dr. Antonio;Backlog
+RF-20 Interfaz sencilla sin capacitación prolongada;Must have;RC-20 - Entrevista D2, Dr. Antonio y Amagua;Backlog
+RF-21 Operación local con sincronización posterior;Should have;RC-21 - Entrevista D4, Dr. Antonio y Amagua;Backlog
+RF-22 Perfiles de usuario diferenciados con control de acceso;Must have;"RC-23 - Secciones C/D ambas entrevistas; equipo";Backlog
+RF-23 Trazabilidad de cambios en historiales clínicos;Should have;RC-24 - Derivado de RC-04 y RC-17;Backlog
