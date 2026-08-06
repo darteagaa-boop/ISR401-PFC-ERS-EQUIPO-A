@@ -1,0 +1,24 @@
+﻿Stakeholder;RF;Caso de Uso;Clase/Módulo;Prueba
+Amagua y Dr. Antonio (RC-01);RF-01 Acceso multiplataforma (móvil y escritorio);CU-01 Iniciar Sesión;Usuario / App Móvil - App Web;TC-01 Login y acceso a módulos desde Android iOS y navegador de escritorio
+Amagua y Dr. Antonio (RC-02);RF-02 Centralización de información clínica;CU-02 Registrar Atención Clínica;Paciente / HistorialClinico;TC-02 Nueva consulta no duplica registros del paciente
+Amagua (RC-03);RF-03 Búsqueda de pacientes por nombre del animal y del dueño;CU-03 Revisar Historial Clínico;Paciente;TC-03 Búsqueda retorna coincidencias desde 2 caracteres
+Amagua y Dr. Antonio (RC-04);RF-04 Registro detallado del historial clínico;CU-02 Registrar Atención Clínica;AtencionClinica;TC-04 Formulario rechaza guardado con campos obligatorios vacíos
+Dr. Antonio y Amagua (RC-05);RF-05 Alertas automáticas de vencimiento de inventario;CU-04 Controlar Inventario;Producto / Notificacion;TC-05 Alertas se generan a 30/15/7 días antes del vencimiento
+Dr. Antonio y Amagua (RC-06);RF-06 Gestión de stock con alertas de faltantes;CU-04 Controlar Inventario;Producto / MovimientoInventario;TC-06 Notificación al cruzar el umbral mínimo configurado
+Dr. Antonio y Amagua (RC-07);RF-07 Registro del proceso de cobro;CU-02 Registrar Atención Clínica;Factura / DetalleFactura;TC-07 Cálculo automático del monto total del cobro
+Amagua (RC-08);RF-08 Módulo de facturación ágil (máximo 3 pasos);CU-02 Registrar Atención Clínica;Factura;TC-08 Flujo de cobro completo en máximo 3 pantallas
+Amagua y Dr. Antonio (RC-09);RF-09 Registro de comunicaciones post-consulta;CU-02 Registrar Atención Clínica;Comunicacion;TC-09 Comunicación registrada queda visible en la ficha del paciente
+Amagua (RC-10);RF-10 Envío de resultados de exámenes por WhatsApp;CU-02 Registrar Atención Clínica;Comunicacion;TC-10 Envío de adjunto por WhatsApp queda registrado en el historial
+Amagua (RC-11);RF-11 Registro de citas y seguimiento de inasistencias;CU-02 Registrar Atención Clínica;Cita;TC-11 Estado de cita (asistió/no asistió) consultable en el historial
+Amagua y Dr. Antonio (RC-12);RF-12 Recordatorios automáticos de citas;CU-02 Registrar Atención Clínica;Cita / Notificacion;TC-12 Recordatorio enviado automáticamente 24h antes sin intervención manual
+Dr. Antonio y Amagua (RC-13);RF-13 Seguimiento cronológico de peso y condición corporal;CU-02 Registrar Atención Clínica;SeguimientoNutricional;TC-13 Gráfico de tendencia de peso refleja la nueva visita
+Dr. Antonio y Amagua (RC-14);RF-14 Recomendaciones nutricionales personalizadas;CU-02 Registrar Atención Clínica;RecomendacionNutricional;TC-14 Recomendación se actualiza al registrar nuevo peso
+Amagua (RC-15);RF-15 Recordatorios de seguimiento de indicaciones médicas;CU-02 Registrar Atención Clínica;Notificacion;TC-15 Notificación llega en la fecha programada
+Dr. Antonio (RC-16);RF-16 Exportación de reportes de salud del paciente en PDF;CU-03 Revisar Historial Clínico;HistorialClinico;TC-16 PDF del historial se genera en menos de 5 segundos
+Amagua y Dr. Antonio (RC-17);RF-17 Sugerencias diagnósticas asistidas por IA (validación obligatoria);CU-02 Registrar Atención Clínica;SugerenciaIA;TC-17 Sugerencia no se incorpora sin aprobación explícita
+Amagua y Dr. Antonio (RC-18);RF-18 Respaldo bibliográfico de las sugerencias de IA;CU-02 Registrar Atención Clínica;ReferenciaBibliografica;TC-18 Cada sugerencia muestra al menos 1 referencia bibliográfica
+Amagua y Dr. Antonio (RC-19);RF-19 Revisión y corrección de sugerencias de IA por el veterinario;CU-02 Registrar Atención Clínica;SugerenciaIA;TC-19 Opciones aceptar/modificar/rechazar disponibles por sugerencia
+Dr. Antonio y Amagua (RC-20);RF-20 Interfaz sencilla sin capacitación prolongada;CU-01 Iniciar Sesión;Usuario (módulo Login);TC-20 Usuario completa registro de consulta sin asistencia tras inducción de máx. 2h
+Dr. Antonio y Amagua (RC-21);RF-21 Operación local con sincronización posterior;CU-02 Registrar Atención Clínica;Módulo de Sincronización Offline;"TC-21 Registro y consulta disponibles sin conexión; sincroniza al reconectar"
+Equipo / Secciones C-D ambas entrevistas (RC-23);RF-22 Perfiles de usuario diferenciados con control de acceso;CU-01 Iniciar Sesión;Usuario / Administrador / Veterinario / Administrativo (RBAC);TC-22 Acceso a módulo restringido según rol autenticado
+Derivado de RC-04 y RC-17 (buenas prácticas IA clínica);RF-23 Trazabilidad de cambios en historiales clínicos;CU-01 Iniciar Sesión;Auditoria;TC-23 Modificación genera registro de auditoría no editable ni eliminable
